@@ -46,7 +46,9 @@ const ContactForm = ({setIsFormSubmitted}) => {
                             onChange={handleChange}
                             className={errors.name && touched.name ? "input__error" : ""}
                         />
-                        {errors.name && touched.name && <p className="error__message">{errors.name}</p>}
+                        <div className="error__container">
+                            {errors.name && touched.name && <p className="error__message">{errors.name}</p>}
+                        </div>
                     </div>
                 </div>
                 <div className="field">
@@ -61,7 +63,9 @@ const ContactForm = ({setIsFormSubmitted}) => {
                         onChange={handleChange}
                         className={errors.email && touched.email ? "input__error" : ""}
                         />
-                        {errors.email && touched.email && <p className="error__message">{errors.email}</p>}
+                        <div className="error__container">
+                            {errors.email && touched.email && <p className="error__message">{errors.email}</p>}
+                        </div>
                     </div>
                     </div>
                 <div className="field">
@@ -76,7 +80,9 @@ const ContactForm = ({setIsFormSubmitted}) => {
                             onChange={handleChange}
                             className={errors.subject && touched.subject ? "input__error" : ""}
                         />
-                        {errors.subject && touched.subject && <p className="error__message">{errors.subject}</p>}
+                        <div className="error__container">
+                            {errors.subject && touched.subject && <p className="error__message">{errors.subject}</p>}
+                        </div>
                     </div>
                     </div>
                 <div className="field">
@@ -93,7 +99,9 @@ const ContactForm = ({setIsFormSubmitted}) => {
                             className={errors.message && touched.message ? "input__error" : ""}
                         >
                         </textarea>
-                        {errors.message && touched.message && <p className="error__message">{errors.message}</p>}
+                        <div className="error__container">
+                            {errors.message && touched.message && <p className="error__message">{errors.message}</p>}
+                        </div>
                     </div>
                 </div>
                 <button type="submit">
