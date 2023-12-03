@@ -1,0 +1,25 @@
+.projects {
+    background-color: var(--white);
+}
+
+.projects__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    padding: 0 10%;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1500px) {
+    .projects__cards {
+        padding: 0;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 850px) {
+    .projects__cards {
+        grid-template-columns: 1fr;
+    }
+}

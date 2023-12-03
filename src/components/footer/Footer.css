@@ -1,0 +1,7 @@
+footer .rights {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    background: var(--dark-green);
+    color: var(--white);
+}
