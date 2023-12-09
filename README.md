@@ -1,3 +1,3 @@
 # My Portfolio
 
-Created using react.
+A Portfolio website created using react, where i showcase the latest projects i worked on.
