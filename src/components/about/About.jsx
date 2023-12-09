@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="title">ABOUT ME</h2>
         <div className="content">
           <div className="about__image">
-            <img src="../../src/assets/about-img.webp" alt="about section image" />
+            <img src="/assets/about-img.webp" alt="about section image" />
           </div>
           <div className="about__info">
             <h4>A Front-end Developer based in Germany  <i className="fa fa-location-dot"></i></h4>

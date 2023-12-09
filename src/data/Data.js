@@ -1,6 +1,6 @@
 export const projects = [
     {
-        image: "../../src/assets/projects-imgs/mycarrental.webp",
+        image: "/assets/projects-imgs/mycarrental.webp",
         name: "myCarRental",
         description: "a modern design frontend project for a car rental service created using React.",
         stack: [
@@ -22,7 +22,7 @@ export const projects = [
         hoverY: "-85%"
     },
     {
-        image: "../../src/assets/projects-imgs/mycoins.webp",
+        image: "/assets/projects-imgs/mycoins.webp",
         name: "myCoins",
         description: "a React app that uses the CoinGecko API to display top cryptos based on their marketcap and important data about each one.",
         stack: [
@@ -44,7 +44,7 @@ export const projects = [
         hoverY: "-35%"
     },
     {
-        image: "../../src/assets/projects-imgs/myshop.webp",
+        image: "/assets/projects-imgs/myshop.webp",
         name: "myShop",
         description: "a Full Stack shopping cart created using MERN stack (MongoDB, Express, React and NodeJs).",
         stack: [
@@ -66,7 +66,7 @@ export const projects = [
         hoverY: "-48%"
     },
     {
-        image: "../../src/assets/projects-imgs/littlelemon.webp",
+        image: "/assets/projects-imgs/littlelemon.webp",
         name: "Little Lemon",
         description: "a Landing Page for the Little Lemon restaurant created using HTML, CSS and Javascript.",
         stack: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"],
@@ -91,9 +91,9 @@ export const projects = [
 ];
 
 export const techstack_icons = [
-    "../../src/assets/techstack/html.webp",
-    "../../src/assets/techstack/css.webp",
-    "../../src/assets/techstack/js.webp",
-    "../../src/assets/techstack/react.webp",
-    "../../src/assets/techstack/python.webp"
+    "/assets/techstack/html.webp",
+    "/assets/techstack/css.webp",
+    "/assets/techstack/js.webp",
+    "/assets/techstack/react.webp",
+    "/assets/techstack/python.webp"
 ]

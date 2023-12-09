@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="hero">
       <div className="wrapper">
         <div className="hero__image">
-          <img src="../../src/assets/profile_image.webp" alt="Profile image" />
+          <img src="/assets/profile_image.webp" alt="Profile image" />
         </div>
         <div className="hero__info">
           <h4>Hello, I am Jihad!</h4>
