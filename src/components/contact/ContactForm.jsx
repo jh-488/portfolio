@@ -104,7 +104,7 @@ const ContactForm = ({setIsFormSubmitted}) => {
                         </div>
                     </div>
                 </div>
-                <button type="submit">
+                <button type="submit" aria-label="submit message">
                     Send Message
                 </button>
             </fieldset>
