@@ -24,11 +24,12 @@ const ProjectCard = ({project}) => {
       </div>
       <div className="project__stack">
         {project.stack.map((item, index) => 
-            <i 
-                key={index} 
-                className={item.class} 
-                style={item.style}
-            ></i>
+            <div key={index} className="stack-images">
+              <img 
+              src={item}
+              alt={`${item} logo`}
+              />
+            </div>
         )}
       </div>
       <div className="project__links">

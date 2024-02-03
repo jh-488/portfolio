@@ -42,13 +42,13 @@
     margin-bottom: 50px;
 }
 
-.project__stack i {
-    font-size: 2rem;
-    padding: 0 10px;
+.project__stack .stack-images{
+    display: inline; 
 }
 
-.project__stack i:first-child {
-    padding: 0;
+.project__stack .stack-images img {
+    width: 40px;
+    padding-right: 5px;
 }
 
 .project__links {
