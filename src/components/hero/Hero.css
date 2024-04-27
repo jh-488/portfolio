@@ -120,4 +120,8 @@
     .hero__image {
         margin-top: 4rem;
     }
+
+    .techstack img {
+        margin: 0 5px;
+    }
 }

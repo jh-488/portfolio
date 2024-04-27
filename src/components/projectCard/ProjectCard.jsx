@@ -26,8 +26,9 @@ const ProjectCard = ({project}) => {
         {project.stack.map((item, index) => 
             <div key={index} className="stack-images">
               <img 
-              src={item}
-              alt={`${item} logo`}
+              title={item.name}
+              src={item.icon}
+              alt={`${item.name} logo`}
               />
             </div>
         )}

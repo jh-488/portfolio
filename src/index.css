@@ -34,9 +34,15 @@ body {
 }
 
 .title {
+  width: fit-content;
+  padding: 5px 10px;
   font-size: 3rem;
   font-weight: 600;
-  color: var(--black);
+  color: var(--light-green);
+  box-shadow: 0 0 8px rgba(88, 129, 87, .8);
+  background-color: var(--green);
+  text-align: center;
+  border-radius: 5px;
 }
 
 .padding {
@@ -65,10 +71,15 @@ body {
 }
 
 
-
+@media (max-width: 850px) {
+  .title {
+    margin: auto;
+    font-size: 2rem;
+  }
+}
 
 @media (max-width: 450px) {
   .container {
-      width: 90%;
+    width: 90%;
   }
 }

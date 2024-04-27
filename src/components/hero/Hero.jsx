@@ -1,5 +1,5 @@
 import "./Hero.css";
-import { techstack_icons } from "../../data/Data";
+import { techstack } from "../../data/Data";
 
 const Hero = () => {
   return (
@@ -10,14 +10,14 @@ const Hero = () => {
         </div>
         <div className="hero__info">
           <h4>Hello, I am Jihad!</h4>
-          <p>A web developer with focus on frontend</p>
+          <p>Breathing Life into Websites</p>
         </div>
       </div>
       <div className="accomplishments wrapper">
         <div className="techstack">
           <h4>Tech Stack:</h4>
-          {techstack_icons.map((icon, index) => 
-            <img src={icon} key={index}/>)}
+          {techstack.map((tech, index) => 
+            <img title={tech.name} src={tech.icon} alt={`${tech.name} logo`} key={index}/>)}
         </div>
         <div className="certification">
           <h4>Certification:</h4>

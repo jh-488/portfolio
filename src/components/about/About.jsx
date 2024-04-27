@@ -10,9 +10,9 @@ const About = () => {
             <img src="/assets/about-img.webp" alt="about section image" />
           </div>
           <div className="about__info">
-            <h4>A Front-end Developer based in Germany  <i className="fa fa-location-dot"></i></h4>
+            <h4>A Web Developer based in Germany  <i className="fa fa-location-dot"></i></h4>
             <p>
-              I'm a Front-end Developer from Morocco, living in Germany. Proficient in creating clean,
+              I'm a Web Developer from Morocco, living in Germany. Proficient in creating clean,
               user-friendly interfaces. I work with frameworks like React and
               enjoy optimizing code for smooth website performance. My toolkit
               includes HTML, CSS and JavaScript, helping me bring designs to

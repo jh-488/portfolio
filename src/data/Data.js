@@ -4,9 +4,18 @@ export const projects = [
         name: "myCarRental",
         description: "a modern design frontend project for a car rental service created using React.",
         stack: [
-            "/assets/projects-stack/react.webp",
-            "/assets/projects-stack/html.webp",
-            "/assets/projects-stack/css.webp"
+            {
+                name: "React",
+                icon: "/assets/projects-stack/react.webp"
+            },
+            {
+                name: "HTML",
+                icon: "/assets/projects-stack/html.webp"
+            },
+            {
+                name: "CSS",
+                icon: "/assets/projects-stack/css.webp"
+            }
         ],
         github: "https://github.com/jh-488/mycarrental-react",
         demo: "https://jh-488.github.io/mycarrental-react/",
@@ -17,9 +26,18 @@ export const projects = [
         name: "myCoins",
         description: "a React app that uses the CoinGecko API to display top cryptos based on their marketcap and important data about each one.",
         stack: [
-            "/assets/projects-stack/react.webp",
-            "/assets/projects-stack/typescript.webp",
-            "/assets/projects-stack/css.webp"
+            {
+                name: "React",
+                icon: "/assets/projects-stack/react.webp"
+            },
+            {
+                name: "TypeScript",
+                icon: "/assets/projects-stack/typescript.webp"
+            },
+            {
+                name: "CSS",
+                icon: "/assets/projects-stack/css.webp"
+            }
         ],
         github: "https://github.com/jh-488/mycoins_ts",
         demo: "https://mycoinss.netlify.app/",
@@ -30,9 +48,18 @@ export const projects = [
         name: "myShop",
         description: "a Full Stack shopping cart created using MERN stack (MongoDB, Express, React and NodeJs).",
         stack: [
-            "/assets/projects-stack/nodejs.webp",
-            "/assets/projects-stack/react.webp",
-            "/assets/projects-stack/mongodb.webp"
+            {
+                name: "NodeJs",
+                icon: "/assets/projects-stack/nodejs.webp"
+            },
+            {
+                name: "React",
+                icon: "/assets/projects-stack/react.webp"
+            },
+            {
+                name: "MongoDB",
+                icon: "/assets/projects-stack/mongodb.webp"
+            }
         ],
         github: "https://github.com/jh-488/myshop-mern",
         demo: "https://myshop-mern.netlify.app/",
@@ -44,9 +71,18 @@ export const projects = [
         description: "a Landing Page for the Little Lemon restaurant created using HTML, CSS and Javascript.",
         stack: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"],
         stack: [
-            "/assets/projects-stack/html.webp",
-            "/assets/projects-stack/css.webp",
-            "/assets/projects-stack/js.webp"
+            {
+                name: "HTML",
+                icon: "/assets/projects-stack/html.webp"
+            },
+            {
+                name: "CSS",
+                icon: "/assets/projects-stack/css.webp"
+            },
+            {
+                name: "JavaScript",
+                icon: "/assets/projects-stack/js.webp"
+            }
         ],
         github: "https://github.com/jh-488/little-lemon-js",
         demo: "https://jh-488.github.io/little-lemon-js/",
@@ -54,11 +90,34 @@ export const projects = [
     }
 ];
 
-export const techstack_icons = [
-    "/assets/techstack/html.webp",
-    "/assets/techstack/css.webp",
-    "/assets/techstack/js.webp",
-    "/assets/techstack/typescript.webp",
-    "/assets/techstack/react.webp",
-    "/assets/techstack/python.webp"
-]
+
+export const techstack = [
+    {
+        name: "HTML",
+        icon: "/assets/techstack/html.webp"
+    },
+    {
+        name: "CSS",
+        icon: "/assets/techstack/css.webp"
+    },
+    {
+        name: "JavaScript",
+        icon: "/assets/techstack/js.webp"
+    },
+    {
+        name: "TypeScript",
+        icon: "/assets/techstack/typescript.webp"
+    },
+    {
+        name: "React",
+        icon: "/assets/techstack/react.webp"
+    },
+    {
+        name: "NodeJs",
+        icon: "/assets/techstack/nodejs.webp"
+    },
+    {
+        name: "Python",
+        icon: "/assets/techstack/python.webp"
+    }
+];
