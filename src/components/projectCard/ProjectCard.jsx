@@ -35,7 +35,7 @@ const ProjectCard = ({project}) => {
       </div>
       <div className="project__links">
         <a href={project.github} target="_blank"><i className="fa-brands fa-github"></i>Github</a>
-        <a href={project.demo} target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a>
+        {project.name === "Portfolio Checker" ? <a className="disabled_link" title="Not available yet"><i className="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a> : <a href={project.demo} target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i>Live Site</a>}
       </div>
     </div>
   )

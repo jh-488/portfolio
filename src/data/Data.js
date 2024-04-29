@@ -1,5 +1,27 @@
 export const projects = [
     {
+        image: "/assets/projects-imgs/portfolio_checker.webp",
+        name: "Portfolio Checker",
+        description: "a Full Stack project that allows users to track their crypto assets and get real-time data.",
+        stack: [
+            {
+                name: "React",
+                icon: "/assets/projects-stack/react.webp"
+            },
+            {
+                name: "NodeJs",
+                icon: "/assets/projects-stack/nodejs.webp"
+            },
+            {
+                name: "MySQL",
+                icon: "/assets/projects-stack/mysql.webp"
+            }
+        ],
+        github: "https://github.com/jh-488/portfolio_checker",
+        demo: "",
+        hoverY: "-69%"
+    },
+    {
         image: "/assets/projects-imgs/mycarrental.webp",
         name: "myCarRental",
         description: "a modern design frontend project for a car rental service created using React.",
@@ -64,29 +86,6 @@ export const projects = [
         github: "https://github.com/jh-488/myshop-mern",
         demo: "https://myshop-mern.netlify.app/",
         hoverY: "-48%"
-    },
-    {
-        image: "/assets/projects-imgs/littlelemon.webp",
-        name: "Little Lemon",
-        description: "a Landing Page for the Little Lemon restaurant created using HTML, CSS and Javascript.",
-        stack: ["fa-brands fa-html5", "fa-brands fa-css3-alt", "fa-brands fa-square-js"],
-        stack: [
-            {
-                name: "HTML",
-                icon: "/assets/projects-stack/html.webp"
-            },
-            {
-                name: "CSS",
-                icon: "/assets/projects-stack/css.webp"
-            },
-            {
-                name: "JavaScript",
-                icon: "/assets/projects-stack/js.webp"
-            }
-        ],
-        github: "https://github.com/jh-488/little-lemon-js",
-        demo: "https://jh-488.github.io/little-lemon-js/",
-        hoverY: "-74%"
     }
 ];
 

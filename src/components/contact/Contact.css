@@ -9,14 +9,12 @@
 
 .contact h2 {
     font-size: 5rem;
-    color: var(--dark-green);
-    text-shadow: 0 0 5px rgba(88, 129, 87, 1);
 }
 
 .contact .line {
     width: 2px;
     height: 250px;
-    background-color: var(--dark-green);
+    background-color: var(--green);
     box-shadow: 0 0 5px rgba(88, 129, 87, .5);
 }
 
@@ -39,6 +37,7 @@
 
 .contact .socials i {
     margin-right: 5px;
+    color: var(--green);
 }
 
 

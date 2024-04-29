@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <section className="contact padding" id="contact">
       <div className="container flex">
-        <h2>Contact Me</h2>
+        <h2 className="title">Contact Me</h2>
         <div className="line"></div>
         <div className="socials">
           <a href="mailto:hyadi.j@gmail.com" target="_blank"><i className="fas fa-envelope"></i>Hyadi.J@Gmail.com</a>
